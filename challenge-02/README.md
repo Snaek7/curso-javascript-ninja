@@ -80,12 +80,15 @@ function argumentos(x,y,z){
         return x+y;
     } else if(x !== undefined && y !== undefined && z !== undefined) {
         return (x+y)/z;
-    } else if(x,y,z === undefined) {
+    } else if(x === undefined && y === undefined && z === undefined) {
         return false;
     } else {
         return null;
     }
 }
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
-?
-```
+
+argumentos() // false
+argumentos(2) // 2
+argumentos(2,2) // 4
+argumentos(2,2,2) // 2
