@@ -109,4 +109,4 @@ console.log(convertToHex("yellow"));
 console.log(convertToHex("green"));
 console.log(convertToHex("black"));
 console.log(convertToHex("light blue"));
-console.log(convertToHex("pink"));
+console.log(convertToHex("grey"));
